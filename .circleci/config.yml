@@ -5,4 +5,4 @@ jobs:
       - image: circleci/python:3.6.4-jessie-browsers
     steps:
       - checkout
-      - run: python -c "y=[x for x in [100,500,20000] if(x > 200)];pprint.pprint(y)"
+      - run: python -c "import pprint;y=[x for x in [100,500,20000] if(x > 200)];pprint(y)"
