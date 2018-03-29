@@ -1,4 +1,6 @@
 from setuptools import *
+NAME='deadsnake'
+DESCRIPTION='description'
 
 setup(
     name=NAME,
